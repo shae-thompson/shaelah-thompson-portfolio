@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #798777;
+    color: #F8EDE3;
+    width: 100%;
+}
+
+.header h1 {
+    padding-top: 25px;
+    padding-left: 10px;
+    display: inline-block;
+    font-family: serif;
+    font-size: 50px;
+    height: 100px;
+}
+
+.header nav {
+    float: right;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding-top:40px;
+}
+
+.header nav ul li {
+    display: inline-block
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #F8EDE3;
+    padding: 10px;
+}
+
+main {
+    background-color: #F8EDE3;
+    padding: 10px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+/* About Me*/
+.about-me {
+    background-color: #BDD2B6;
+    padding: 10px;
+}
+.about-me h2 {
+    color: #A2B29F;
+    font-family: serif;
+    font-size: 30px
+}
+
+.about-me p {
+    font-family: helvetica; 
+    font-size: 15px;
+}
+
+/* Contact me*/
+.contact-me {
+    background-color: #BDD2B6;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.contact-me h2 {
+    color: #A2B29F;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.contact-me ul {
+    list-style-type: none;
+    font-family: helvetica; 
+    font-size: 15px;
+}
+
+/* Work Examples */
+.my-work h2 {
+    color: #A2B29F;
+    font-family: serif;
+    font-size: 30px;
+}
+
+.my-work h3 {
+    color: #BDD2B6;
+    font-family: serif;
+    font-size: 25px;
+}
+
+.my-work p {
+    font-family: helvetica; 
+    font-size: 15px;
+}
+
+.horiseon {
+    margin: auto;
+    width: 60%;
+}
+
+.horiseon h3 {
+    padding-left: 10px;
+    display: inline;
+}
+
+.horiseon p {
+    display: inline;
+}
+
+.horiseon img {
+    width: 100%;
+}
+
+.examples {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 30px;
+    padding-left: 10%;
+}
+
+.examples h3 {
+    font-size: 20px;
+}
+
