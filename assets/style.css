@@ -48,13 +48,17 @@ main {
 
 .top {
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 15% 65% 20%;
 }
 
 /* About Me*/
+.about-img img {
+    border: 5px solid #BDD2B6;
+}
 .about-me {
     background-color: #BDD2B6;
     padding: 10px;
+    height: 265px;
 }
 .about-me h2 {
     color: #A2B29F;
@@ -72,6 +76,7 @@ main {
     background-color: #BDD2B6;
     margin-left: 20px;
     padding: 10px;
+    height: 265px;
 }
 
 .contact-me h2 {
@@ -87,6 +92,11 @@ main {
 }
 
 /* Work Examples */
+.my-work {
+    background-color: #BDD2B6;
+    margin-top: 20px;
+    padding: 10px;
+}
 .my-work h2 {
     color: #A2B29F;
     font-family: serif;
@@ -94,7 +104,7 @@ main {
 }
 
 .my-work h3 {
-    color: #BDD2B6;
+    color: #798777;
     font-family: serif;
     font-size: 25px;
 }
@@ -120,16 +130,31 @@ main {
 
 .horiseon img {
     width: 100%;
+    border: 5px solid #F8EDE3;
 }
 
 .examples {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding: 30px;
-    padding-left: 10%;
+    padding-left: 7%;
 }
 
 .examples h3 {
     font-size: 20px;
+    padding-left: 10px;
 }
 
+.examples p {
+    padding-left: 10px
+}
+
+.examples img {
+    border: 5px solid #F8EDE3;
+}
+
+/* Footer */
+.footer {
+    color:#798777;
+    padding-left: 10px;
+}
